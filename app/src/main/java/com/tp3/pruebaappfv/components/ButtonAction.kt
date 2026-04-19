@@ -5,8 +5,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 
 @Composable
-fun ButtonAction() {
+fun ButtonAction(text: String, onClick: () -> Unit) {
     Button(onClick = { /*TODO*/ }) {
-        Text(text = "Button")
+        Text(text = text)
     }
 }
